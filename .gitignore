@@ -1,7 +1,28 @@
 # .gitignore
+
+# Virtual environment folder (if using virtualenv or conda)
 venv/
-__pycache__/
+env/
+*.env
+
+# Compiled Python files
 *.pyc
 *.pyo
-*.egg-info/
+__pycache__/
+
+# Log files
+*.log
+
+# IDE-specific folders
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (these should be excluded if they are large and non-essential for the codebase)
+data/
+
+# Other temporary or system-specific files
+*.~
 .DS_Store
